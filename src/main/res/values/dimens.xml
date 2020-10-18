@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="stroke">1dp</dimen>
+    <dimen name="stroke_x2">2dp</dimen>
+
+    <!-- region Spacing -->
+    <dimen name="spacing_d2">4dp</dimen>
+    <dimen name="spacing">8dp</dimen>
+    <dimen name="spacing_x2">16dp</dimen>
+    <dimen name="spacing_x3">24dp</dimen>
+    <dimen name="spacing_x4">32dp</dimen>
+    <dimen name="spacing_x5">40dp</dimen>
+    <dimen name="spacing_x6">48dp</dimen>
+    <dimen name="spacing_x7">56dp</dimen>
+    <dimen name="spacing_x8">64dp</dimen>
+    <dimen name="spacing_x10">80dp</dimen>
+    <!-- endregion -->
+
+    <dimen name="text_large">24sp</dimen>
+    <dimen name="text_primary">18sp</dimen>
+    <dimen name="text_secondary">17sp</dimen>
+    <dimen name="text_normal">15sp</dimen>
+    <dimen name="text_small">12sp</dimen>
+    <dimen name="text_extra_small">10sp</dimen>
+
+    <!-- region Ripple -->
+    <dimen name="rippleStrokeWidth">2dp</dimen>
+    <dimen name="rippleRadius">64dp</dimen>
+    <!-- endregion -->
+</resources>

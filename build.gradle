@@ -1,0 +1,23 @@
+apply from: "$rootDir/common-android-library.gradle"
+apply plugin: 'kotlin-kapt'
+
+dependencies {
+    api library.kotlin.stdlib
+    api library.kotlin.coroutine.jdk
+    api library.kotlin.coroutine.android
+
+    api library.androidx.core
+    api library.androidx.appcompat
+    api library.androidx.constraint
+    api library.androidx.refresh
+
+    api library.okhttp.client
+    api library.okhttp.logging
+
+    api library.cicerone
+    api library.material
+
+    api library.toothpick.ktx
+    api library.toothpick.runtime
+    kapt library.toothpick.compiler
+}

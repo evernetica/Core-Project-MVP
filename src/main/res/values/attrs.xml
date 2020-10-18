@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <declare-styleable name="SystemInsetsGuideline">
+        <attr name="paddingStartSystemWindowInsets" format="boolean" />
+        <attr name="paddingEndSystemWindowInsets" format="boolean" />
+        <attr name="paddingTopSystemWindowInsets" format="boolean" />
+        <attr name="paddingBottomSystemWindowInsets" format="boolean" />
+    </declare-styleable>
+
+    <declare-styleable name="PinViewTheme">
+        <attr name="pinViewStyle" format="reference" />
+    </declare-styleable>
+
+    <declare-styleable name="PinView">
+        <attr name="itemCount" format="integer" />
+        <attr name="itemWidth" format="dimension" />
+        <attr name="itemHeight" format="dimension" />
+        <attr name="itemRadius" format="dimension" />
+        <attr name="itemSpacing" format="dimension" />
+        <attr name="lineWidth" format="dimension" />
+        <attr name="lineColor" format="reference|color" />
+        <attr name="viewType" format="enum">
+            <enum name="rectangle" value="0" />
+            <enum name="line" value="1" />
+            <enum name="none" value="2" />
+        </attr>
+        <attr name="android:cursorVisible" />
+        <attr name="cursorWidth" format="dimension" />
+        <attr name="cursorColor" format="reference|color" />
+        <attr name="android:itemBackground" />
+        <attr name="hideLineWhenFilled" format="boolean" />
+    </declare-styleable>
+
+    <declare-styleable name="BottomNavigationView">
+        <attr name="highlightWidth" format="dimension" />
+        <attr name="highlightHeight" format="dimension" />
+        <attr name="highlightBackground" format="reference|color" />
+        <attr name="highlightInterpolator" format="reference" />
+        <attr name="transitionDuration" format="integer" />
+    </declare-styleable>
+
+    <declare-styleable name="StateLayout">
+        <attr name="state" format="enum">
+            <enum name="none" value="0" />
+            <enum name="loading" value="1" />
+            <enum name="content" value="2" />
+            <enum name="empty" value="3" />
+            <enum name="error" value="4" />
+        </attr>
+    </declare-styleable>
+
+    <declare-styleable name="StateLayout_Layout">
+        <attr name="layout_state" format="enum">
+            <enum name="none" value="0" />
+            <enum name="loading" value="1" />
+            <enum name="content" value="2" />
+            <enum name="empty" value="3" />
+            <enum name="error" value="4" />
+        </attr>
+
+        <attr name="layout_messagingId" format="reference" />
+    </declare-styleable>
+
+    <declare-styleable name="RippleView">
+        <attr name="show_preview" format="boolean" />
+        <attr name="ripple_color" format="color|reference" />
+        <attr name="pulse_type" format="enum">
+            <enum name="fill" value="0" />
+            <enum name="stroke" value="1" />
+        </attr>
+        <attr name="pulse_duration" format="integer|reference" />
+        <attr name="start_delay" format="integer|reference" />
+        <attr name="end_delay" format="integer|reference" />
+        <attr name="ripple_stroke_width" format="dimension|reference" />
+        <attr name="ripple_start_radius_percent" format="float" />
+        <attr name="ripple_end_radius_percent" format="float" />
+        <attr name="pulse_interpolator" format="reference" />
+    </declare-styleable>
+
+    <declare-styleable name="PulsingView">
+        <attr name="color" format="color|reference" />
+        <attr name="waveCount" format="integer" />
+        <attr name="style" format="enum">
+            <enum name="fill" value="0" />
+            <enum name="stroke" value="1" />
+        </attr>
+    </declare-styleable>
+
+    <declare-styleable name="StationNearbyView">
+        <attr name="text" format="string" />
+        <attr name="textColor" format="color|reference" />
+        <attr name="textStyle" format="reference" />
+        <attr name="waveColor" format="color|reference" />
+        <attr name="waves" format="integer" />
+        <attr name="waveStyle" format="enum">
+            <enum name="fill" value="0" />
+            <enum name="stroke" value="1" />
+        </attr>
+    </declare-styleable>
+</resources>
